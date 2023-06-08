@@ -1,2 +1,2 @@
 # Porsonal Portfolio
-link: https://makhmudov-nodirbek.netlify.app/
+link: https://makhmudov-nodirbek.netlify.app
