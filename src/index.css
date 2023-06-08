@@ -11,11 +11,11 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-white: #fff;
+    --color-bg: #221F1F;
+    --color-bg-variant: #2A2A2A;
+    --color-primary: #747272;
+    --color-primary-variant: rgba(175, 185, 192, 0.4);
+    --color-white: rgba(255, 255, 255, 0.8);
     --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
@@ -38,7 +38,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url('./assets/bg-texture.png');
 }
 
 /* --GENERAL STYLES-- */
@@ -132,5 +131,11 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    body {
+        font-size: small;
     }
 }

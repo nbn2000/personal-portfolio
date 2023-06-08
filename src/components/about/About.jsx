@@ -1,10 +1,6 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
-
 
 function About() {
   return (
@@ -17,31 +13,18 @@ function About() {
             <img src={ME} alt="me" />
           </div>
         </div>
-
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
-          </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel facilis est, corrupti explicabo, iure possimus optio eum repellat itaque rem cum tempora corporis voluptates dolore molestiae natus sit et.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads 
+            to the success of the overall product. Check out some of my work in the Portfolio section.</p>
+          <p>I also like sharing content related to the stuff that I have learned over the years in Web 
+              Development so it can help other people of the Dev Community.</p>
+          <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity 
+            that matches my skills and experience then don't hesitate to contact me.</p>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
   )
 }
 
-export default About
+export default About 

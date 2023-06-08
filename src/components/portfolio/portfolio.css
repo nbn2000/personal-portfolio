@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    text-align: center;
 }
 
 .portfolio__item:hover {
@@ -17,20 +18,15 @@
     background: transparent;
 }
 
-.portfolio__item-image {
+.portfolio-image {
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
-.portfolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
 
 /* --MEDIA QUERY FOR MEDIUM DEVICES-- */
 

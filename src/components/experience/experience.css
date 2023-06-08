@@ -1,13 +1,9 @@
-.experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
 .experience__container > div {
-    background: var(--color-bg-variant);
+    background: var(--color-bg-variant); 
+    width: 80%;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
+    margin: 0 auto 0;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -26,7 +22,7 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     row-gap: 2rem;
 }
 
@@ -43,8 +39,8 @@
 /* --MEDIA QUERY FOR MEDIUM DEVICES-- */
 
 @media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
+    .experience__content {
+        grid-template-columns: 2fr 1fr;
     }
 
     .experience__container > div {
